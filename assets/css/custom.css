@@ -1,0 +1,8 @@
+.fa-eye {
+    transition: .3s;
+}
+
+
+.fa-eye:hover {
+    color: #558D96;
+}
