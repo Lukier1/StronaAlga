@@ -4520,12 +4520,12 @@
 
 	#footer {
 		padding: 4em 0 2em 0;
-		background: #1c1c1c;
+		background: #FFFFFF;
 		text-align: center;
 	}
 
 		#footer a {
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(0, 0, 0, 0.75);
 		}
 
 			#footer a:hover {
@@ -4533,7 +4533,7 @@
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(0, 0, 0, 0.5);
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0;
