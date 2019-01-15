@@ -2586,11 +2586,11 @@
 			}
 
 	table tbody tr {
-		border-color: rgba(144, 144, 144, 0.25);
+		border-color: rgba(144, 144, 144, 0.4);
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: rgba(144, 144, 144, 0.3);
 		}
 
 	table th {
@@ -3305,44 +3305,44 @@
 /* Banner */
 
 	#banner {
-		background-color: #0D2557;
-		color: rgba(255, 255, 255, 0.75);
+		background-color: #FFFFFF;
+		color: rgba(13, 37, 87, 0.75);
 		text-align: center;
 		cursor: default;
-		padding: 10em 4em 9em 4em;
+		padding: 2em 4em 9em 4em;
 	}
 
 		#banner input, #banner select, #banner textarea {
-			color: #fff;
+			color: #0D2557;
 		}
 
 		#banner a {
-			color: #fff;
+			color: #0D2557;
 		}
 
 		#banner strong, #banner b {
-			color: #fff;
+			color: #0D2557;
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
+			color: #0D2557;
 		}
 
 		#banner blockquote {
-			border-left-color: rgba(255, 255, 255, 0.25);
+			border-left-color: rgba(13, 37, 87, 0.25);
 		}
 
 		#banner code {
-			background: rgba(255, 255, 255, 0.075);
-			border-color: rgba(255, 255, 255, 0.25);
+			background: rgba(13, 37, 87,  0.075);
+			border-color: rgba(13, 37, 87,  0.25);
 		}
 
 		#banner hr {
-			border-bottom-color: rgba(255, 255, 255, 0.25);
+			border-bottom-color: rgba(13, 37, 87, 0.25);
 		}
 
 		#banner .box {
-			border-color: rgba(255, 255, 255, 0.25);
+			border-color: rgba(13, 37, 87, 0.25);
 		}
 
 		#banner input[type="submit"],
@@ -3351,7 +3351,7 @@
 		#banner button,
 		#banner .button {
 			background-color: #558D96;
-			color: #fff !important;
+			color: #0D2557 !important;
 		}
 
 			#banner input[type="submit"]:hover,
@@ -3376,8 +3376,8 @@
 			#banner button.alt,
 			#banner .button.alt {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
-				color: #fff !important;
+				box-shadow: inset 0 0 0 2px rgba(13, 37, 87, 0.25);
+				color: #0D2557 !important;
 			}
 
 				#banner input[type="submit"].alt:hover,
@@ -3385,7 +3385,7 @@
 				#banner input[type="button"].alt:hover,
 				#banner button.alt:hover,
 				#banner .button.alt:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: rgba(13, 37, 87, 0.075);
 				}
 
 				#banner input[type="submit"].alt:active,
@@ -3393,7 +3393,7 @@
 				#banner input[type="button"].alt:active,
 				#banner button.alt:active,
 				#banner .button.alt:active {
-					background-color: rgba(255, 255, 255, 0.2);
+					background-color: rgba(13, 37, 87, 0.2);
 				}
 
 				#banner input[type="submit"].alt.icon:before,
@@ -3401,7 +3401,7 @@
 				#banner input[type="button"].alt.icon:before,
 				#banner button.alt.icon:before,
 				#banner .button.alt.icon:before {
-					color: rgba(255, 255, 255, 0.5);
+					color: rgba(13, 37, 87, 0.5);
 				}
 
 			#banner input[type="submit"].special,
@@ -3422,8 +3422,8 @@
 		#banner input[type="email"],
 		#banner select,
 		#banner textarea {
-			background: rgba(255, 255, 255, 0.075);
-			border-color: rgba(255, 255, 255, 0.25);
+			background: rgba(13, 37, 87, 0.075);
+			border-color: rgba(13, 37, 87, 0.25);
 		}
 
 			#banner input[type="text"]:focus,
@@ -3436,7 +3436,7 @@
 			}
 
 		#banner .select-wrapper:before {
-			color: rgba(255, 255, 255, 0.25);
+			color: rgba(13, 37, 87, 0.25);
 		}
 
 		#banner input[type="checkbox"] + label,
@@ -4520,12 +4520,18 @@
 
 	#footer {
 		padding: 4em 0 2em 0;
-		background: #FFFFFF;
+		background: #0D2557;
 		text-align: center;
 	}
 
+		#footer p {
+			color: rgba(255, 255, 255, 0.75);
+		}
+		#footer p b{
+			color: rgba(255, 255, 255, 0.75);
+		}
 		#footer a {
-			color: rgba(0, 0, 0, 0.75);
+			color: rgba(255, 255, 255, 0.75);
 		}
 
 			#footer a:hover {
@@ -4533,7 +4539,7 @@
 			}
 
 		#footer .copyright {
-			color: rgba(0, 0, 0, 0.5);
+			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0;
